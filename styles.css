@@ -58,3 +58,29 @@ header h1 {
   margin: 0;
   padding: 0;
 }
+
+main h2 {
+  margin-top: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:visited {
+  color: white;
+}
+
+.nav-list li {
+  margin: 0 1em;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
