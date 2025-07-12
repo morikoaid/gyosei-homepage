@@ -84,3 +84,6 @@ header a:visited {
   margin: 0;
   padding: 0;
 }
+main > h2 {
+  margin-top: 0;
+}
