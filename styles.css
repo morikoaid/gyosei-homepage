@@ -45,3 +45,16 @@ header h1 {
   color: white;
 }
 
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0;
+  padding: 0;
+}
