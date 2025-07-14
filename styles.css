@@ -49,5 +49,5 @@ header a {
 /* ========== main ========== */
 main {
   max-width: 800px;
-  margin: 2em a
-　}
+  margin: 2em auto;
+}
