@@ -30,6 +30,13 @@ header a {
   text-decoration: none;
 }
 
+/* nav 全体設定を削除 */
+header nav {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* width: 100%; */
+}
+
 .nav-list {
   list-style: none;
   display: flex;
@@ -38,7 +45,6 @@ header a {
   gap: 1em;
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 
 .nav-list li {
@@ -53,12 +59,10 @@ header a {
 main {
   max-width: 800px;
   margin: 2em auto;
+  padding: 0 1em;
 }
+
+/* デバッグ用outlineは削除かコメントアウト */
 header, nav, .nav-list {
-  outline: 1px solid red;
-}
-header nav {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  /* outline: 1px solid red; */
 }
