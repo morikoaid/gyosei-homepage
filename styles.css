@@ -51,3 +51,6 @@ main {
   max-width: 800px;
   margin: 2em auto;
 }
+header, nav, .nav-list {
+  outline: 1px solid red;
+}
