@@ -68,10 +68,6 @@ main {
   padding: 0 1em;
 }
 
-/* デバッグ用outlineは削除かコメントアウト */
-header, nav, .nav-list {
-  /* outline: 1px solid red; */
-}
 header, nav, .nav-list {
   outline: 1px solid red;
 }
