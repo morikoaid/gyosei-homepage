@@ -72,3 +72,6 @@ main {
 header, nav, .nav-list {
   /* outline: 1px solid red; */
 }
+header, nav, .nav-list {
+  outline: 1px solid red;
+}
