@@ -17,6 +17,7 @@ body {
   color: #333;
   margin: 0; /* ← 追加 */
   padding: 0; /* 念のため追加 */
+  outline: 2px solid blue;
 }
 
 /* ========== header ========== */
@@ -66,6 +67,7 @@ main {
   max-width: 800px;
   margin: 2em auto;
   padding: 0 1em;
+  outline: 2px solid green;
 }
 
 header, nav, .nav-list {
