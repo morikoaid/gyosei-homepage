@@ -38,20 +38,19 @@ header a {
 }
 
 header nav {
-  /* display: flex; ← 削除 */
+  display: flex;
   justify-content: center;
   width: 100%;
 }
 
 .nav-list {
   list-style: none;
-  display: inline-flex;
+  display: flex; /* ← inline-flex ではなく flex */
   justify-content: center;
   flex-wrap: wrap;
   gap: 1em;
   margin: 0;
   padding: 0;
-  
 }
 
 .nav-list li {
