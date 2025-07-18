@@ -39,12 +39,12 @@ header a {
 }
 
 header nav {
-  display: block;
-  text-align: center;
+  display: flex;   /* ← block → flex に戻す */
+  justify-content: center; /* ナビを中央寄せ */
+  text-align: center; /* 念のため維持 */
 }
-
 .nav-list {
-  display: inline-flex;
+  display: flex; /* inline-flex → flex に戻す */
   justify-content: center;
   flex-wrap: wrap;
   gap: 1em;
