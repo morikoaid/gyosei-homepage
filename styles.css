@@ -42,7 +42,7 @@ header nav {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 100%;
+  width: auto; /* ← ここ */
 }
 
 .nav-list {
@@ -51,7 +51,7 @@ header nav {
   flex-wrap: wrap;
   gap: 1em;
   list-style: none;
-  margin: 0 auto;
+  margin: 0 auto; /* ← 追加 */
   padding: 0;
 }
 
