@@ -53,6 +53,12 @@ header nav {
 .nav-link:hover {
   text-decoration: underline;
 }
+footer {
+  background-color: #2c7c5c;
+  color: white;
+  text-align: center; /* ← 追加または確認 */
+  padding: 1em 0;
+}
 
 /* ========== main ========== */
 main {
